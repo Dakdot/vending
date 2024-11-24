@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Vending.dir/main.cpp.o "CMakeFiles/Vending.dir/vending-machine.cpp.o" CMakeFiles/Vending.dir/item.cpp.o -o Vending

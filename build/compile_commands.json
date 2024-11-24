@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/Vending.dir/main.cpp.o -c \"/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/main.cpp\"",
+  "file": "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/main.cpp",
+  "output": "CMakeFiles/Vending.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/Vending.dir/vending-machine.cpp.o -c \"/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/vending-machine.cpp\"",
+  "file": "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/vending-machine.cpp",
+  "output": "CMakeFiles/Vending.dir/vending-machine.cpp.o"
+},
+{
+  "directory": "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/Vending.dir/item.cpp.o -c \"/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/item.cpp\"",
+  "file": "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/item.cpp",
+  "output": "CMakeFiles/Vending.dir/item.cpp.o"
+}
+]
