@@ -72,60 +72,60 @@ include CMakeFiles/Vending.dir/flags.make
 CMakeFiles/Vending.dir/codegen:
 .PHONY : CMakeFiles/Vending.dir/codegen
 
-CMakeFiles/Vending.dir/main.cpp.o: CMakeFiles/Vending.dir/flags.make
-CMakeFiles/Vending.dir/main.cpp.o: /Users/thiagoandrade/Documents/ENGR\ 116\ RA\ HW/vending/main.cpp
-CMakeFiles/Vending.dir/main.cpp.o: CMakeFiles/Vending.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Vending.dir/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vending.dir/main.cpp.o -MF CMakeFiles/Vending.dir/main.cpp.o.d -o CMakeFiles/Vending.dir/main.cpp.o -c "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/main.cpp"
+CMakeFiles/Vending.dir/src/main.cpp.o: CMakeFiles/Vending.dir/flags.make
+CMakeFiles/Vending.dir/src/main.cpp.o: /Users/thiagoandrade/Documents/ENGR\ 116\ RA\ HW/vending/src/main.cpp
+CMakeFiles/Vending.dir/src/main.cpp.o: CMakeFiles/Vending.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Vending.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vending.dir/src/main.cpp.o -MF CMakeFiles/Vending.dir/src/main.cpp.o.d -o CMakeFiles/Vending.dir/src/main.cpp.o -c "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/src/main.cpp"
 
-CMakeFiles/Vending.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vending.dir/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/main.cpp" > CMakeFiles/Vending.dir/main.cpp.i
+CMakeFiles/Vending.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vending.dir/src/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/src/main.cpp" > CMakeFiles/Vending.dir/src/main.cpp.i
 
-CMakeFiles/Vending.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vending.dir/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/main.cpp" -o CMakeFiles/Vending.dir/main.cpp.s
+CMakeFiles/Vending.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vending.dir/src/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/src/main.cpp" -o CMakeFiles/Vending.dir/src/main.cpp.s
 
-CMakeFiles/Vending.dir/vending-machine.cpp.o: CMakeFiles/Vending.dir/flags.make
-CMakeFiles/Vending.dir/vending-machine.cpp.o: /Users/thiagoandrade/Documents/ENGR\ 116\ RA\ HW/vending/vending-machine.cpp
-CMakeFiles/Vending.dir/vending-machine.cpp.o: CMakeFiles/Vending.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Vending.dir/vending-machine.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vending.dir/vending-machine.cpp.o -MF CMakeFiles/Vending.dir/vending-machine.cpp.o.d -o CMakeFiles/Vending.dir/vending-machine.cpp.o -c "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/vending-machine.cpp"
+CMakeFiles/Vending.dir/src/item.cpp.o: CMakeFiles/Vending.dir/flags.make
+CMakeFiles/Vending.dir/src/item.cpp.o: /Users/thiagoandrade/Documents/ENGR\ 116\ RA\ HW/vending/src/item.cpp
+CMakeFiles/Vending.dir/src/item.cpp.o: CMakeFiles/Vending.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Vending.dir/src/item.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vending.dir/src/item.cpp.o -MF CMakeFiles/Vending.dir/src/item.cpp.o.d -o CMakeFiles/Vending.dir/src/item.cpp.o -c "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/src/item.cpp"
 
-CMakeFiles/Vending.dir/vending-machine.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vending.dir/vending-machine.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/vending-machine.cpp" > CMakeFiles/Vending.dir/vending-machine.cpp.i
+CMakeFiles/Vending.dir/src/item.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vending.dir/src/item.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/src/item.cpp" > CMakeFiles/Vending.dir/src/item.cpp.i
 
-CMakeFiles/Vending.dir/vending-machine.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vending.dir/vending-machine.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/vending-machine.cpp" -o CMakeFiles/Vending.dir/vending-machine.cpp.s
+CMakeFiles/Vending.dir/src/item.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vending.dir/src/item.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/src/item.cpp" -o CMakeFiles/Vending.dir/src/item.cpp.s
 
-CMakeFiles/Vending.dir/item.cpp.o: CMakeFiles/Vending.dir/flags.make
-CMakeFiles/Vending.dir/item.cpp.o: /Users/thiagoandrade/Documents/ENGR\ 116\ RA\ HW/vending/item.cpp
-CMakeFiles/Vending.dir/item.cpp.o: CMakeFiles/Vending.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Vending.dir/item.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vending.dir/item.cpp.o -MF CMakeFiles/Vending.dir/item.cpp.o.d -o CMakeFiles/Vending.dir/item.cpp.o -c "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/item.cpp"
+CMakeFiles/Vending.dir/src/vending-machine.cpp.o: CMakeFiles/Vending.dir/flags.make
+CMakeFiles/Vending.dir/src/vending-machine.cpp.o: /Users/thiagoandrade/Documents/ENGR\ 116\ RA\ HW/vending/src/vending-machine.cpp
+CMakeFiles/Vending.dir/src/vending-machine.cpp.o: CMakeFiles/Vending.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Vending.dir/src/vending-machine.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Vending.dir/src/vending-machine.cpp.o -MF CMakeFiles/Vending.dir/src/vending-machine.cpp.o.d -o CMakeFiles/Vending.dir/src/vending-machine.cpp.o -c "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/src/vending-machine.cpp"
 
-CMakeFiles/Vending.dir/item.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vending.dir/item.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/item.cpp" > CMakeFiles/Vending.dir/item.cpp.i
+CMakeFiles/Vending.dir/src/vending-machine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vending.dir/src/vending-machine.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/src/vending-machine.cpp" > CMakeFiles/Vending.dir/src/vending-machine.cpp.i
 
-CMakeFiles/Vending.dir/item.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vending.dir/item.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/item.cpp" -o CMakeFiles/Vending.dir/item.cpp.s
+CMakeFiles/Vending.dir/src/vending-machine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vending.dir/src/vending-machine.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/src/vending-machine.cpp" -o CMakeFiles/Vending.dir/src/vending-machine.cpp.s
 
 # Object files for target Vending
 Vending_OBJECTS = \
-"CMakeFiles/Vending.dir/main.cpp.o" \
-"CMakeFiles/Vending.dir/vending-machine.cpp.o" \
-"CMakeFiles/Vending.dir/item.cpp.o"
+"CMakeFiles/Vending.dir/src/main.cpp.o" \
+"CMakeFiles/Vending.dir/src/item.cpp.o" \
+"CMakeFiles/Vending.dir/src/vending-machine.cpp.o"
 
 # External object files for target Vending
 Vending_EXTERNAL_OBJECTS =
 
-Vending: CMakeFiles/Vending.dir/main.cpp.o
-Vending: CMakeFiles/Vending.dir/vending-machine.cpp.o
-Vending: CMakeFiles/Vending.dir/item.cpp.o
+Vending: CMakeFiles/Vending.dir/src/main.cpp.o
+Vending: CMakeFiles/Vending.dir/src/item.cpp.o
+Vending: CMakeFiles/Vending.dir/src/vending-machine.cpp.o
 Vending: CMakeFiles/Vending.dir/build.make
 Vending: CMakeFiles/Vending.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Vending"

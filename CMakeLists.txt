@@ -4,4 +4,6 @@ set(CMAKE_CXX_STANDARD 11)
 
 project(Vending)
 
-add_executable(Vending main.cpp vending-machine.cpp item.cpp)
+include_directories(src)
+
+add_executable(Vending src/main.cpp src/item.cpp src/vending-machine.cpp)

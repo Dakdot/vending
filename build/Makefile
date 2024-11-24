@@ -129,77 +129,77 @@ Vending/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vending.dir/build.make CMakeFiles/Vending.dir/build
 .PHONY : Vending/fast
 
-item.o: item.cpp.o
-.PHONY : item.o
+src/item.o: src/item.cpp.o
+.PHONY : src/item.o
 
 # target to build an object file
-item.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vending.dir/build.make CMakeFiles/Vending.dir/item.cpp.o
-.PHONY : item.cpp.o
+src/item.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vending.dir/build.make CMakeFiles/Vending.dir/src/item.cpp.o
+.PHONY : src/item.cpp.o
 
-item.i: item.cpp.i
-.PHONY : item.i
+src/item.i: src/item.cpp.i
+.PHONY : src/item.i
 
 # target to preprocess a source file
-item.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vending.dir/build.make CMakeFiles/Vending.dir/item.cpp.i
-.PHONY : item.cpp.i
+src/item.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vending.dir/build.make CMakeFiles/Vending.dir/src/item.cpp.i
+.PHONY : src/item.cpp.i
 
-item.s: item.cpp.s
-.PHONY : item.s
+src/item.s: src/item.cpp.s
+.PHONY : src/item.s
 
 # target to generate assembly for a file
-item.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vending.dir/build.make CMakeFiles/Vending.dir/item.cpp.s
-.PHONY : item.cpp.s
+src/item.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vending.dir/build.make CMakeFiles/Vending.dir/src/item.cpp.s
+.PHONY : src/item.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vending.dir/build.make CMakeFiles/Vending.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vending.dir/build.make CMakeFiles/Vending.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vending.dir/build.make CMakeFiles/Vending.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vending.dir/build.make CMakeFiles/Vending.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vending.dir/build.make CMakeFiles/Vending.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vending.dir/build.make CMakeFiles/Vending.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
-vending-machine.o: vending-machine.cpp.o
-.PHONY : vending-machine.o
+src/vending-machine.o: src/vending-machine.cpp.o
+.PHONY : src/vending-machine.o
 
 # target to build an object file
-vending-machine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vending.dir/build.make CMakeFiles/Vending.dir/vending-machine.cpp.o
-.PHONY : vending-machine.cpp.o
+src/vending-machine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vending.dir/build.make CMakeFiles/Vending.dir/src/vending-machine.cpp.o
+.PHONY : src/vending-machine.cpp.o
 
-vending-machine.i: vending-machine.cpp.i
-.PHONY : vending-machine.i
+src/vending-machine.i: src/vending-machine.cpp.i
+.PHONY : src/vending-machine.i
 
 # target to preprocess a source file
-vending-machine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vending.dir/build.make CMakeFiles/Vending.dir/vending-machine.cpp.i
-.PHONY : vending-machine.cpp.i
+src/vending-machine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vending.dir/build.make CMakeFiles/Vending.dir/src/vending-machine.cpp.i
+.PHONY : src/vending-machine.cpp.i
 
-vending-machine.s: vending-machine.cpp.s
-.PHONY : vending-machine.s
+src/vending-machine.s: src/vending-machine.cpp.s
+.PHONY : src/vending-machine.s
 
 # target to generate assembly for a file
-vending-machine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vending.dir/build.make CMakeFiles/Vending.dir/vending-machine.cpp.s
-.PHONY : vending-machine.cpp.s
+src/vending-machine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vending.dir/build.make CMakeFiles/Vending.dir/src/vending-machine.cpp.s
+.PHONY : src/vending-machine.cpp.s
 
 # Help Target
 help:
@@ -210,15 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Vending"
-	@echo "... item.o"
-	@echo "... item.i"
-	@echo "... item.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... vending-machine.o"
-	@echo "... vending-machine.i"
-	@echo "... vending-machine.s"
+	@echo "... src/item.o"
+	@echo "... src/item.i"
+	@echo "... src/item.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/vending-machine.o"
+	@echo "... src/vending-machine.i"
+	@echo "... src/vending-machine.s"
 .PHONY : help
 
 

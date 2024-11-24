@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/item.cpp" "CMakeFiles/Vending.dir/item.cpp.o" "gcc" "CMakeFiles/Vending.dir/item.cpp.o.d"
-  "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/main.cpp" "CMakeFiles/Vending.dir/main.cpp.o" "gcc" "CMakeFiles/Vending.dir/main.cpp.o.d"
-  "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/vending-machine.cpp" "CMakeFiles/Vending.dir/vending-machine.cpp.o" "gcc" "CMakeFiles/Vending.dir/vending-machine.cpp.o.d"
+  "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/src/item.cpp" "CMakeFiles/Vending.dir/src/item.cpp.o" "gcc" "CMakeFiles/Vending.dir/src/item.cpp.o.d"
+  "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/src/main.cpp" "CMakeFiles/Vending.dir/src/main.cpp.o" "gcc" "CMakeFiles/Vending.dir/src/main.cpp.o.d"
+  "/Users/thiagoandrade/Documents/ENGR 116 RA HW/vending/src/vending-machine.cpp" "CMakeFiles/Vending.dir/src/vending-machine.cpp.o" "gcc" "CMakeFiles/Vending.dir/src/vending-machine.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
